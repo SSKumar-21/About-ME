@@ -1,0 +1,372 @@
+*{
+    font-family: "Lora";
+}
+html {
+    
+    background-color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer; 
+}
+
+.dropdown-toggle {
+    text-decoration: none;
+    color: #343a40;
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+    display: none;
+    transition: display 3s ease; 
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+}
+
+.dropdown-menu:hover {
+    display: block;
+}
+
+.dropdown-menu {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+
+#fire{
+    background: linear-gradient(300deg, rgb(255, 0, 128), purple, darkblue);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    height: 700px;
+}
+
+#my {
+    color: #ffffff;
+}
+
+#para-1 {
+    padding: 20px;
+    padding-top: 0px;
+    
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#gap{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#para-1H{
+    padding: 20px;
+    padding-top: 50px;
+
+}
+
+#main-img {
+    float: right;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin: 20px;
+    animation: glow 2s linear infinite; 
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px 0 white;
+    }
+    50% {
+        box-shadow: 0 0 40px 0 white;
+    }
+    100% {
+        box-shadow: 0 0 20px 0 white;
+    }
+}
+
+
+
+
+
+button{
+    height: 60px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 50px 0 white;
+
+}
+
+
+
+.btn1{
+    background-color: black;
+    color: #fff;
+}
+
+.btn2{
+    background: transparent;
+    
+}
+
+a{
+   transition: all 0.3s ease;
+}
+
+a:hover{
+    border: none;
+    padding: 10px;
+
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 20px 0 white;
+    
+}
+
+.part-2{
+    background-color: black;
+    color: #fff;
+    padding: 80px;
+}
+
+.part-2a{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+   
+}
+
+.A{
+    border: 3px #222 solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+
+.T3rd{
+    color: #fff;
+    display: flex;
+    margin: 80px;
+    margin-top: 0;
+}
+
+
+.skills{
+    color: #fff;
+}
+
+.m-skill{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.S{
+    height: auto;
+    width: 300px;
+    border: 2px white solid;
+    border-radius: 20px ;
+    margin: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.S:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 500 0 white;
+    font-size: large;
+}
+
+.cmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+.C{
+    border: 2px solid white;
+    height: auto ;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.ca{
+    color: white;
+}
+
+
+
+.C.mail-c:hover {
+    background: linear-gradient(to right, #d93025, #ea4335, #dd4b39, #f4c542);
+
+}
+
+.C.insta-c:hover {
+    background: linear-gradient(to right, #833ab4, #c13584);
+
+}
+
+.C.link-c:hover {
+    background: linear-gradient(to right, lightblue, blue,darkblue);
+}
+
+.C.git-c:hover {
+    background: linear-gradient(to right, #fff, #2c3136);
+}
+
+
+#af{
+    border: none;
+    transition: none;
+}
+
+#af:hover{
+    border: none;
+    padding: none;
+    box-sizing: none;
+    border-radius: none;
+}
+
+footer {
+    background: linear-gradient(300deg, rgb(255, 0, 128), purple, darkblue);
+    color: black;
+    font-size: 1.5rem;
+    animation: gradient-anima 5s ease infinite;
+    background-size: 180% 180%;
+}
+
+@keyframes gradient-anima {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+#fa{
+    color: black;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.Cf{
+    border: 0px solid white;
+    height: auto ;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.Cf.mail-c:hover {
+    background: linear-gradient(to right, #d93025, #ea4335, #dd4b39, #f4c542);
+
+}
+
+.Cf.insta-c:hover {
+    background: linear-gradient(to right, #833ab4, #c13584);
+
+}
+
+.Cf.link-c:hover {
+    background: linear-gradient(to right, lightblue, blue,darkblue);
+}
+
+.Cf.git-c:hover {
+    background: linear-gradient(to right, #fff, #2c3136);
+}
